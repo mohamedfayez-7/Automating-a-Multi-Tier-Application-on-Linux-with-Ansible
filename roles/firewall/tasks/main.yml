@@ -1,0 +1,19 @@
+---
+- name: Open HTTP port for Apache
+  firewalld:
+    port: 80/tcp
+    permanent: yes
+    state: enabled
+
+- name: Open MySQL port
+  firewalld:
+    port: 3306/tcp
+    permanent: yes
+    state: enabled
+
+# Reload the firewalld service after making changes
+- name: Reload firewalld service
+  systemd:
+    name: firewalld
+    state: reloaded
+

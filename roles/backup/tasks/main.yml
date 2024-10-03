@@ -1,0 +1,7 @@
+---
+- include_tasks: backup_db.yml
+  when: "'db' in group_names"
+
+- include_tasks: backup_web.yml
+  when: "'web' in group_names"
+

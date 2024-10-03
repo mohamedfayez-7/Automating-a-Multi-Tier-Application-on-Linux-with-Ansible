@@ -1,0 +1,15 @@
+---
+- hosts: web
+  become: yes
+  roles:
+    - apache
+    - firewall
+    - backup
+
+- hosts: db
+  become: yes
+  roles:
+    - mysql
+    - firewall
+    - backup
+
