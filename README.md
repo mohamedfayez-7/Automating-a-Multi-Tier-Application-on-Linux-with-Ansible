@@ -2,7 +2,7 @@
 # Project: Automating a Multi-Tier Application on VMware with Ansible
 
 ## Objective
-Use Ansible to fully automate the deployment, configuration, and orchestration of a multi-tier application (e.g., LAMP stack) across multiple CentOS VMs (master node, node1, and node2) in a VMware environment.
+Using Ansible to fully automate the deployment, configuration, and orchestration of a multi-tier application (e.g., LAMP stack) across multiple CentOS VMs (master node, node1, and node2) in a VMware environment.
 
 ## Steps
 
@@ -13,7 +13,7 @@ Use Ansible to fully automate the deployment, configuration, and orchestration o
 ### 2. Role-based Deployment
 - Use Ansible roles to separate the tasks:
   - **Web Server Role**: Configures node1 to host Apache/PHP.
-  - **Database Server Role**: Configures node2 to host MySQL/MariaDB.
+  - **Database Server Role**: Configures node2 to host MySQL.
 - Deploy a simple PHP application on the web server node and configure it to communicate with the database on node2.
 
 ### 3. Network Configuration & Load Balancing
