@@ -4,6 +4,35 @@
 ## Objective
 Using Ansible to fully automate the deployment, configuration, and orchestration of a multi-tier application (e.g., LAMP stack) across multiple CentOS VMs (master node, node1, and node2) in a VMware environment.
 
+## Project Structure
+.
+├── ansible.cfg
+├── inventory
+│   └── hosts
+├── playbook.yml
+├── roles
+│   ├── apache
+│   │   ├── tasks
+│   │   │   └── main.yml
+│   │   ├── handlers
+│   │   │   └── main.yml
+│   │   ├── files
+│   │   └── templates
+│   │       └── index.php.j2
+│   ├── mysql
+│   │   ├── tasks
+│   │   │   └── main.yml
+│   │   ├── handlers
+│   │   │   └── main.yml
+│   ├── firewall
+│   │   ├── tasks
+│   │   │   └── main.yml
+│   ├── backup
+│   │   ├── tasks
+│   │   │   └── main.yml
+└── group_vars
+    └── all.yml
+
 ## Steps
 
 ### 1. Provisioning VMs
