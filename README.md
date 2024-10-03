@@ -18,7 +18,6 @@ Use Ansible to fully automate the deployment, configuration, and orchestration o
 
 ### 3. Network Configuration & Load Balancing
 - Automate firewall rules, IP tables, and networking configurations between the nodes.
-- Optionally, use HAProxy or Nginx as a load balancer.
 
 ### 4. Centralized Monitoring and Logging
 - Set up a monitoring tool like Prometheus or Nagios on the master node to monitor node1 and node2.
