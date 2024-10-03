@@ -19,15 +19,11 @@ Using Ansible to fully automate the deployment, configuration, and orchestration
 ### 3. Network Configuration & Load Balancing
 - Automate firewall rules, IP tables, and networking configurations between the nodes.
 
-### 4. Centralized Monitoring and Logging
-- Set up a monitoring tool like Prometheus or Nagios on the master node to monitor node1 and node2.
-- Collect logs from both the web and database servers and centralize them using tools like Logstash.
-
-### 5. Backup and Recovery Automation
+### 4. Backup and Recovery Automation
 - Automate backups of the database on node2 using Ansible scheduled jobs.
 - Automate web content backup on node1.
 
-### 6. Security
+### 5. Security
 - Implement Ansible Vault to manage secrets such as database credentials.
 - Use Ansible to apply security updates and harden the systems.
 
