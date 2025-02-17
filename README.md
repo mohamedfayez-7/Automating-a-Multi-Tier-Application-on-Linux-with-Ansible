@@ -1,5 +1,5 @@
 
-# Project: Automating a Multi-Tier Application on VMware with Ansible
+# Project: Automating a Multi-Tier Application on Linux with Ansible
 
 ## Objective
 Using Ansible to fully automate the deployment, configuration, and orchestration of a multi-tier application (e.g., LAMP stack) across multiple CentOS VMs (master node, node1, and node2) in a VMware environment.
